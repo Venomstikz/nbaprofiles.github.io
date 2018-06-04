@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Which NBA player are you?</title>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="topten.html">Top Ten Lists</a></li>
+  <li class="active"><a href="index.html">Quiz</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+  <h3>Which NBA player are you?</h3>
+  
+  <form id="ok">
+    <img class = "image"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8XB6UYrqHVbk0o1HMchGpxj3thBvB61gKUub5oUGKPTMSV_Q6A" alt="NBA logo" width="200">
+  <p><a href="https://developers.google.com/maps/documentation/static-maps/"></a></p>
+  <img class="image" src="https://pmchollywoodlife.files.wordpress.com/2017/04/lebron-james-russell-westbrook-fed-up-with-steph-cury-ftr.jpg" alt="Curry with James and Westbrook" width="500">
+  <p><a href="https://developers.google.com/maps/documentation/streetview/"></a></p>
+  
+    <label>
+      Your name:
+      <input id="player" type="text">
+    </label>
+
+    
+    
+    <fieldset class="lol">
+      <legend>Which college would you rather attend?</legend>
+      <label><input name="question1" value="Davidson"type="radio">Davidson</label><br>
+      <label><input name="question1" value="UCLA" type="radio">UCLA</label><br>
+      <label><input name="question1" value="None" type="radio">None</label><br>
+    </fieldset>  
+
+    <fieldset class="lol">
+      <legend>Which is a better color?</legend>
+      <label><input name="question2" value="blue" type="radio">blue</label><br>
+      <label><input name="question2" value="red" type="radio">red</label><br>
+      <label><input name="question2" value="gold" type="radio">gold</label><br>
+      
+    </fieldset>
+    <fieldset class="lol">
+      <legend>Which do you like the most?</legend>
+      <label><input name="question3" value="cereal" type="radio">cereal</label><br>
+      <label><input name="question3" value="chicken parmesan" type="radio">chicken parmesan</label><br>
+      <label><input name="question3" value="chocolate chip pecan cookies" type="radio">chocolate chip pecan cookies</label><br>
+      
+    </fieldset>
+    <fieldset class="lol">
+      <legend>Where would you rather grow up?</legend>
+      <label><input name="question4" value="Akron, Ohio" type="radio">Akron, Ohio</label><br>
+      <label><input name="question4" value="Charlotte, North Carolina" type="radio">Charlotte, North Carolina</label><br>
+      <label><input name="question4" value="Long Beach, California" type="radio">Long Beach, California</label><br>
+      
+    </fieldset>
+    <fieldset class="lol">
+      <legend>Which feature best describes you?</legend>
+      <label><input name="question5" value="strong" type="radio">strong</label><br>
+      <label><input name="question5" value="quick" type="radio">quick</label><br>
+      <label><input name="question5" value="skilled" type="radio">skilled</label><br>
+      
+    </fieldset>
+  
+    
+    <button type="submit">Check me</button>
+  </form>
+  
+  <div id="results"></div>
+  <div id="player"></div>
+  <h4>Other players</h4>
+  <ol id="scores">
+    Loading...
+  </ol>
+  <script src="index.js"></script>
+  </body>
+  </html>
